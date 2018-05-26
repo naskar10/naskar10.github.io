@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html >
+
+<head>
+    <meta charset="utf-8" />
+    <title>genbit1</title>
+    <link rel="stylesheet" href="styles.scss">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+</head>
+
+<body>
+    <div id="scene">
+        <div data-depth="0.5"><img src="./images/layer1.png"></div>
+        <div data-depth="0.5"><img src="./images/layer2.png"></div>
+        <div data-depth="0.8"><img src="./images/layer3.png"></div>
+        <div data-depth="1.1"><img src="./images/layer4.png"></div>
+        <div data-depth="1.4"><img src="./images/layer5.png"></div>
+        <div data-depth="1.7"><img src="./images/layer6.png"></div>
+    </div>
+
+    <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);
+    </script>
+
+</body>
+</html>

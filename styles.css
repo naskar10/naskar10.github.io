@@ -20,6 +20,12 @@ input[type=checkbox] {
   display: none;
 }
 
+.centerImage
+{
+text-align:center;
+display:block;
+}
+
 label {
   cursor: pointer;
   display: inline-block;

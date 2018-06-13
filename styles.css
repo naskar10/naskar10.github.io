@@ -20,11 +20,11 @@ input[type=checkbox] {
   display: none;
 }
 
-.centerImage
+/*.centerImage
 {
 text-align:center;
 display:block;
-}
+}*/
 
 label {
   cursor: pointer;
